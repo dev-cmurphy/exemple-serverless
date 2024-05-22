@@ -33,3 +33,5 @@ jobs:
           git add image.jpg
           git commit -m 'Update image'
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
