@@ -24,7 +24,7 @@ jobs:
         run: pip install pillow
 
       - name: Generate new image
-        run: python main.py
+        run: python src/main.py
 
       - name: Commit updated image
         run: |
